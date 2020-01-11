@@ -10,22 +10,22 @@
 
 ### FK
 
-```python
+```sh
 python3 FK.py
 ```
 
 ### brabd
-```python
+```sh
 python3 brand.py
 ```
 
 ### TP
-```python
+```sh
 python3 TP.py
 ```
 
 
 ### DIA
-```python
+```sh
 python3 DIA.py
 ```
