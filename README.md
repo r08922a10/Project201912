@@ -11,21 +11,21 @@
 ### FK
 
 ```python
-python3 FK.PY
+python3 FK.py
 ```
 
 ### brabd
 ```python
-python3 brand.PY
+python3 brand.py
 ```
 
 ### TP
 ```python
-python3 TP.PY
+python3 TP.py
 ```
 
 
 ### DIA
 ```python
-python3 DIA.PY
+python3 DIA.py
 ```
