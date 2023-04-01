@@ -99,7 +99,7 @@ def load_data(file_name="data.csv"):
                 print(n, d, gbr.score(train_x, train_y[:, 0]), gbr.score(valid_x, valid_y[:, 0]))
     exit()
     '''
-    gbr = GradientBoostingClassifier(n_estimators=14, max_depth=3, min_samples_split=2, learning_rate=0.1, verbose=0, validation_fraction=0)
+    gbr = GradientBoostingClassifier(n_estimators=14, max_depth=3, min_samples_split=2, learning_rate=0.1, verbose=0, validation_fraction=0.1)
     gbr.fit(train_x, train_y[:, 0])
     '''
     print(gbr.score(train_x, train_y[:, 0]), gbr.score(valid_x, valid_y[:, 0]), gbr.score(x, y[:, 0]))
